@@ -1,0 +1,48 @@
+  .mat-tab-label {
+    color: white;
+  }
+
+  /deep/ .mat-tab-label {
+    color: white;
+  }
+
+  .md-tab.ng-scope.ng-isolate-scope.md-ink-ripple.md-active {
+    color: white;
+  }
+
+  .md-tab.ng-scope.ng-isolate-scope.md-ink-ripple {
+    color: white;
+  }
+
+
+
+  .mat-tab-label:active {
+    color: white;
+  }
+
+  .mat-tab-label:selected {
+    color: white;
+  }
+
+  .mat-tab-label-container {
+      box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.2),
+        0px 20px 31px 3px rgba(0, 0, 0, 0.14),
+        0px 8px 38px 7px rgba(0, 0, 0, 0.12) !important;
+    position: fixed;
+    width: 100%;
+    z-index: 9999 !important;
+    background-color: rgba(47, 51, 74, 0.85) !important;
+    transition: .2s;
+  }
+
+  .mat-tab-body-wrapper {
+      margin-top: 50px;
+  }
+
+  .smaller {
+      margin-top: 20px;
+      width: 90% !important;
+      margin-left: 50%;
+      transform: translateX(-50%);
+      transition: width .2s;
+  }

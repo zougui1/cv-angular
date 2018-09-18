@@ -1,0 +1,8 @@
+<span class="institute-name">{{ school }}</span>
+<a [href]="url">
+    <span class="degree">{{ name }}</span>
+</a>
+<div class="progress degree-progress">
+    <div [ngStyle]="{'width': width}" class="determinate"></div>
+    <h5>{{ width }}</h5>
+</div>

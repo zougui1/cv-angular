@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="row">
+        <div style="margin-left: 50%; transform: translateX(-50%)" class="col s12 m10 l9">
+            <app-competence-bar *ngFor="let skill of skills"
+                                [competenceName]="skill.name"
+                                [width]="skill.width"></app-competence-bar>
+        </div>
+    </div>
+</div>

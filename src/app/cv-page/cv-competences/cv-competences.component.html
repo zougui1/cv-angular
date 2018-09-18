@@ -1,0 +1,8 @@
+<div class="cv-competences">
+  <span class="cv-competence-title">Compétences</span>
+
+  <app-cv-competence *ngFor="let competence of competences"
+                     [index]="competence.index"
+                     [competenceName]="competence.name"
+                     [isHalf]="competence.isHalf"></app-cv-competence>
+</div>

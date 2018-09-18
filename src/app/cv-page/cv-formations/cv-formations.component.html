@@ -1,0 +1,9 @@
+<div class="cv-formations">
+  <span class="cv-formation-title">Formations</span>
+
+  <app-cv-formation *ngFor="let formation of formations"
+                     [index]="formation.index"
+                     [formationName]="formation.name"
+                     [schoolName]="formation.school"
+                     [date]="formation.date"></app-cv-formation>
+</div>

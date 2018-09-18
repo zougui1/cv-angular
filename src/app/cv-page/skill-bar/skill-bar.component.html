@@ -1,0 +1,5 @@
+<span  *ngFor="let span of spanList" [ngClass]="{
+  'cv-skill': true,
+  'fill': span < index,
+  'half-fill': isHalf && span == index
+}"></span>

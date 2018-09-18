@@ -1,0 +1,18 @@
+<h2>Cours suivi</h2>
+<div class="card-panel teal darken-2">
+  <span class="date">2017</span>
+  <hr class="hr-degree">
+  <app-course *ngFor="let course of courses2017"
+              [school]="course.school"
+              [url]="course.url"
+              [name]="course.name"
+              [width]="course.width"></app-course>
+
+  <span class="date">2018</span>
+  <hr class="hr-degree">
+  <app-course *ngFor="let course of courses2018"
+              [school]="course.school"
+              [url]="course.url"
+              [name]="course.name"
+              [width]="course.width"></app-course>
+</div>
